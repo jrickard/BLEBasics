@@ -3,7 +3,7 @@
 //  charsTableViewController.swift
 //  
 //
-//  Created by MARION JACK RICKARD on 8/2/16.
+//  Created by MARION JACK RICKARD on 8/2/16. blah blah
 //  Copyright © 2016 Jack Rickard. All rights reserved.
 //
 
