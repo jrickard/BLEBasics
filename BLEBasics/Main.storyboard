@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,26 +21,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLE Basics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIA-BV-aT1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLE Basics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIA-BV-aT1">
                                 <rect key="frame" x="28" y="277" width="355" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="355" id="XJi-8b-baI"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <color key="textColor" red="0.001251116281" green="0.50726030759999996" blue="0.1231064045" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="vh8-O2-7e9">
-                                <rect key="frame" x="28" y="96" width="240" height="245"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blegaugesicon3.png" translatesAutoresizingMaskIntoConstraints="NO" id="atZ-Dm-UxR">
+                                <rect key="frame" x="121" y="425" width="97" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="atZ-Dm-UxR" secondAttribute="height" multiplier="97:100" id="84H-a2-RiA"/>
+                                    <constraint firstAttribute="height" constant="100" id="oGf-9D-64B"/>
+                                    <constraint firstAttribute="width" constant="97" id="zcV-1S-cDi"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blegaugesicon3.png" translatesAutoresizingMaskIntoConstraints="NO" id="atZ-Dm-UxR">
-                                <rect key="frame" x="100" y="426" width="97" height="100"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-D6-ua1">
-                                <rect key="frame" x="39" y="103" width="220" height="215"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-D6-ua1">
+                                <rect key="frame" x="48" y="96" width="220" height="215"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="215" id="doN-q0-rrv"/>
+                                </constraints>
                                 <connections>
                                     <segue destination="yKS-ym-LnN" kind="show" id="bFy-DO-qE1"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="vh8-O2-7e9">
+                                <rect key="frame" x="48" y="96" width="240" height="245"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vh8-O2-7e9" secondAttribute="height" multiplier="48:49" id="28d-p4-I08"/>
+                                    <constraint firstAttribute="width" secondItem="vh8-O2-7e9" secondAttribute="height" multiplier="48:49" id="hLk-Ei-L1O"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.90815329891235097" blue="0.68379315972534482" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="19" id="5JM-QL-jf5"/>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="centerX" secondItem="atZ-Dm-UxR" secondAttribute="centerX" constant="-11.5" id="5bb-GI-qcW"/>
+                            <constraint firstItem="atZ-Dm-UxR" firstAttribute="top" secondItem="vh8-O2-7e9" secondAttribute="bottom" constant="84" id="J2h-op-2DV"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="top" secondItem="TiO-Uy-YjE" secondAttribute="bottom" constant="32" id="K9Y-sQ-eFw"/>
+                            <constraint firstItem="sIA-BV-aT1" firstAttribute="top" secondItem="TiO-Uy-YjE" secondAttribute="bottom" constant="213" id="Kql-b3-ZQm"/>
+                            <constraint firstItem="atZ-Dm-UxR" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="101" id="O3M-Zg-NZc"/>
+                            <constraint firstItem="KFR-Gf-KWi" firstAttribute="top" secondItem="atZ-Dm-UxR" secondAttribute="bottom" constant="75" id="XW5-i3-B2w"/>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="top" secondItem="TiO-Uy-YjE" secondAttribute="bottom" constant="39" id="gOK-bJ-Py5"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="leading" secondItem="sIA-BV-aT1" secondAttribute="leading" constant="20" id="iBt-jg-mmL"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="28" id="iJS-Zi-SU5"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="centerX" secondItem="atZ-Dm-UxR" secondAttribute="centerX" constant="-1.5" id="n2a-Pr-3A5"/>
+                            <constraint firstItem="KFR-Gf-KWi" firstAttribute="top" secondItem="sIA-BV-aT1" secondAttribute="bottom" constant="142" id="tIT-5t-oEW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mhc-6h-98J">
                         <barButtonItem key="rightBarButtonItem" title="Scan" id="2oc-va-FnE">

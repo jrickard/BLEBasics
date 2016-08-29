@@ -1,6 +1,5 @@
 //
 //  AppDelegate.swift
-//  CocoaHeadsBluetooth
 //
 //  Created by Jack Rickard 07/24/16
 //  Copyright (c) 2016 Jack Rickard. All rights reserved.
