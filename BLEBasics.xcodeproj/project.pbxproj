@@ -17,8 +17,6 @@
 		D23895281D707CCA00387F36 /* PeripheralsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D238951D1D707CCA00387F36 /* PeripheralsTableViewController.swift */; };
 		D23895291D707CCA00387F36 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D238951E1D707CCA00387F36 /* PeripheralTableViewCell.swift */; };
 		D238952A1D707CCA00387F36 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D238951F1D707CCA00387F36 /* PeripheralViewController.swift */; };
-		D238952D1D707D9500387F36 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D238952C1D707D9500387F36 /* Info.plist */; };
-		D238952F1D707DC700387F36 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D238952E1D707DC700387F36 /* Info.plist */; };
 		D23895331D707E4800387F36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D23895321D707E4800387F36 /* LaunchScreen.xib */; };
 		D2AA663B1D747B7200A803B5 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = D2AA663A1D747B7200A803B5 /* bluetooth.png */; };
 /* End PBXBuildFile section */
@@ -35,8 +33,6 @@
 		D238951D1D707CCA00387F36 /* PeripheralsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeripheralsTableViewController.swift; path = BLEBasics/PeripheralsTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		D238951E1D707CCA00387F36 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeripheralTableViewCell.swift; path = BLEBasics/PeripheralTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		D238951F1D707CCA00387F36 /* PeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeripheralViewController.swift; path = BLEBasics/PeripheralViewController.swift; sourceTree = SOURCE_ROOT; };
-		D238952C1D707D9500387F36 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		D238952E1D707DC700387F36 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 		D23895321D707E4800387F36 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		D2AA663A1D747B7200A803B5 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetooth.png; path = ../../../../../Volumes/Thunderbook1/BLEBasics/BLEBasics/bluetooth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,8 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				D2AA663A1D747B7200A803B5 /* bluetooth.png */,
-				D23895171D707CCA00387F36 /* AppDelegate.swift */,
 				D23895181D707CCA00387F36 /* blegaugesicon3.png */,
+				D23895171D707CCA00387F36 /* AppDelegate.swift */,
 				D23895191D707CCA00387F36 /* CharacteristicTableViewCell.swift */,
 				D238951A1D707CCA00387F36 /* charsTableViewController.swift */,
 				D238951B1D707CCA00387F36 /* Info.plist */,
@@ -92,8 +88,6 @@
 		317191D41ABA2D5D00BD9A91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D238952E1D707DC700387F36 /* Info.plist */,
-				D238952C1D707D9500387F36 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,12 +154,10 @@
 			files = (
 				D23895271D707CCA00387F36 /* Main.storyboard in Resources */,
 				D209E9921D708AF500B70D75 /* Images.xcassets in Resources */,
-				D238952D1D707D9500387F36 /* Info.plist in Resources */,
 				D23895261D707CCA00387F36 /* Info.plist in Resources */,
 				D23895331D707E4800387F36 /* LaunchScreen.xib in Resources */,
 				D23895231D707CCA00387F36 /* blegaugesicon3.png in Resources */,
 				D2AA663B1D747B7200A803B5 /* bluetooth.png in Resources */,
-				D238952F1D707DC700387F36 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
