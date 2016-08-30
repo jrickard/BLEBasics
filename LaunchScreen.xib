@@ -11,14 +11,15 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lnq-Be-a2y">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lnq-Be-a2y">
                     <rect key="frame" x="34" y="23" width="240" height="247"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="9Ew-G4-PIs"/>
+                        <constraint firstAttribute="height" constant="247" id="DQk-aB-OjE"/>
+                    </constraints>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLEBasics" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
-                    <rect key="frame" x="34" y="266" width="240" height="43"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="240" id="CDT-qu-L3A"/>
-                    </constraints>
+                    <rect key="frame" x="34" y="287" width="240" height="43"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -26,10 +27,11 @@
             </subviews>
             <color key="backgroundColor" red="0.26666666666666666" green="0.69803921568627447" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="34" id="1gg-WX-VWs"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="Lnq-Be-a2y" secondAttribute="leading" id="5Fc-g2-TFS"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="trailing" secondItem="Lnq-Be-a2y" secondAttribute="trailing" id="QI4-A1-25j"/>
-                <constraint firstAttribute="bottom" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="171" id="Udh-ep-p5l"/>
+                <constraint firstItem="Lnq-Be-a2y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="34" id="7jv-44-hyM"/>
+                <constraint firstItem="Lnq-Be-a2y" firstAttribute="leading" secondItem="kId-c2-rCX" secondAttribute="leading" id="8Eb-Ca-3jE"/>
+                <constraint firstItem="Lnq-Be-a2y" firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" id="IBA-LO-0gE"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="Lnq-Be-a2y" secondAttribute="bottom" constant="17" id="Jtd-uu-wdd"/>
+                <constraint firstItem="Lnq-Be-a2y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="whu-jm-ubF"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

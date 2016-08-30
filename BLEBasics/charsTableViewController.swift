@@ -42,7 +42,7 @@ var NumericType: [String] = [
     "Opaque Structure",]
 
 
-var unitDefinitions: [UInt16: String] = [0x2700:"None",0x2701:"Meters",0x2702:"Kilograms",0x2703:"Seconds",0x2704:"Amperes",0x2705:"K",0x2706:"Moles",0x2707:"Candelas",0x2710:"m2",0x2711:"m3",0x2712:"m/s",0x2713:"m/s2",0x2714:"Wavenumber",0x2715:"kg/m3",0x2716:"kg/m2",0x2717:"m3/kg",0x2718:"A/m2",0x2719:"A/m",0x271A:"mol/m3",0x271B:"kg/m3",0x271C:"cd/m2",0x271D:"n",0x271E:"Kri",0x2720:"Radians",0x2721:"Steradians",0x2722:"Hz",0x2723:"N",0x2724:"Pa",0x2725:"Joules",0x2726:"Watts",0x2727:"Coulombs",0x2728:"Volts",0x2729:"Farads",0x272A:"Ohms",0x272B:"Siemens",0x272C:"Webers",0x272D:"Teslas",0x272E:"H",0x272F:"C",0x2730:"Lumens",0x2731:"Lux",0x2732:"Bq",0x2733:"Gy",0x2734:"Sv",0x2735:"kat",0x2740:"Pa/s",0x2741:"Nm",0x2742:"N/m",0x2743:"rad/s",0x2744:"rad/s2",0x2745:"W/m2)",0x2746:"J/K0",0x2747:"J/kgK",0x2748:"J/kg",0x2749:"W/(mK)",0x274A:"J/m3",0x274B:"V/m",0x274C:"Coulomb/m3",0x274D:"Coulomb/m2",0x274E:"Coulomb/m2",0x274F:"Farad/m",0x2750:"H/m",0x2751:"Joule/mole",0x2752:"J/molK",0x2753:"Coulomb/kg",0x2754:"Gy/s",0x2755:"W/sr",0x2756:"W/m2sr",0x2757:"Katal/m3",0x2760:"Minutes",0x2761:"Hours",0x2762:"Days",0x2763:"Degrees",0x2764:"Minutes",0x2765:"Seconds",0x2766:"Hectares",0x2767:"Litres",0x2768:"Tonnes",0x2780:"bar",0x2781:"mmHg",0x2782:"Angstroms",0x2783:"NM",0x2784:"Barns",0x2785:"Knots",0x2786:"Nepers",0x2787:"bel",0x27A0:"Yards",0x27A1:"Parsecs",0x27A2:"Inches",0x27A3:"Feet",0x27A4:"Miles",0x27A5:"psi",0x27A6:"KPH",0x27A7:"MPH",0x27A8:"RPM",0x27A9:"cal",0x27AA:"Cal",0x27AB:"kWh",0x27AC:"F",0x27AD:"Percent",0x27AE:"Per Mile",0x27AF:"bp/m",0x27B0:"Ah",0x27B1:"mg/Decilitre",0x27B2:"mmol/l",0x27B3:"Years",0x27B4:"Months",0x27B5:"Count/m3",0x27B6:"Watt/m2",0x27B7:"ml/kg/min",0x27B8:"lbs"]
+var unitDefinitions: [UInt16: String] = [0x2700:" ",0x2701:"Meters",0x2702:"Kilograms",0x2703:"Seconds",0x2704:"Amperes",0x2705:"K",0x2706:"Moles",0x2707:"Candelas",0x2710:"m2",0x2711:"m3",0x2712:"m/s",0x2713:"m/s2",0x2714:"Wavenumber",0x2715:"kg/m3",0x2716:"kg/m2",0x2717:"m3/kg",0x2718:"A/m2",0x2719:"A/m",0x271A:"mol/m3",0x271B:"kg/m3",0x271C:"cd/m2",0x271D:"n",0x271E:"Kri",0x2720:"Radians",0x2721:"Steradians",0x2722:"Hz",0x2723:"N",0x2724:"Pa",0x2725:"Joules",0x2726:"Watts",0x2727:"Coulombs",0x2728:"Volts",0x2729:"Farads",0x272A:"Ohms",0x272B:"Siemens",0x272C:"Webers",0x272D:"Teslas",0x272E:"H",0x272F:"C",0x2730:"Lumens",0x2731:"Lux",0x2732:"Bq",0x2733:"Gy",0x2734:"Sv",0x2735:"kat",0x2740:"Pa/s",0x2741:"Nm",0x2742:"N/m",0x2743:"rad/s",0x2744:"rad/s2",0x2745:"W/m2)",0x2746:"J/K0",0x2747:"J/kgK",0x2748:"J/kg",0x2749:"W/(mK)",0x274A:"J/m3",0x274B:"V/m",0x274C:"Coulomb/m3",0x274D:"Coulomb/m2",0x274E:"Coulomb/m2",0x274F:"Farad/m",0x2750:"H/m",0x2751:"Joule/mole",0x2752:"J/molK",0x2753:"Coulomb/kg",0x2754:"Gy/s",0x2755:"W/sr",0x2756:"W/m2sr",0x2757:"Katal/m3",0x2760:"Minutes",0x2761:"Hours",0x2762:"Days",0x2763:"Degrees",0x2764:"Minutes",0x2765:"Seconds",0x2766:"Hectares",0x2767:"Litres",0x2768:"Tonnes",0x2780:"bar",0x2781:"mmHg",0x2782:"Angstroms",0x2783:"NM",0x2784:"Barns",0x2785:"Knots",0x2786:"Nepers",0x2787:"bel",0x27A0:"Yards",0x27A1:"Parsecs",0x27A2:"Inches",0x27A3:"Feet",0x27A4:"Miles",0x27A5:"psi",0x27A6:"KPH",0x27A7:"MPH",0x27A8:"RPM",0x27A9:"cal",0x27AA:"Cal",0x27AB:"kWh",0x27AC:"F",0x27AD:"Percent",0x27AE:"Per Mile",0x27AF:"bp/m",0x27B0:"Ah",0x27B1:"mg/Decilitre",0x27B2:"mmol/l",0x27B3:"Years",0x27B4:"Months",0x27B5:"Count/m3",0x27B6:"Watt/m2",0x27B7:"ml/kg/min",0x27B8:"lbs"]
 
 class charsTableViewController: UITableViewController, CBPeripheralDelegate, UITextFieldDelegate
 
@@ -429,16 +429,21 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
                             let UpdateValue2 = NSNumberFormatter().numberFromString(cell.decValue.text!)
                             
                             var x : Int8 = self.characteristicExponent[Mycharacteristic.UUID] ?? 0
+                            
+                            
                             cell.valueExponent.text = String(format:"%2d",x)
                             
+                            
                             var exponentValue = Double(UpdateValue2!)
+                            let exponentValueSimple = Int(UpdateValue2!)
+                            
                             switch x
                             {
                             case 1 ... 100:
                                 for _ in 1 ... x
-                                {
-                                    exponentValue *= 10
-                                }
+                                    {
+                                        exponentValue *= 10
+                                    }
                            
                             default:         //Exponent is either zero or negative
                                 x *= -1      //Convert it to a positive
@@ -451,7 +456,6 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
                                     }
                                 
                             }                            
-                            //cell.presentedValue.text = String(format:"%2.2f",exponentValue)
                             
                             if let ASCIIstr = String(data: self.characteristicValue[Mycharacteristic.UUID]!, encoding: NSUTF8StringEncoding)
                                 {
@@ -462,6 +466,10 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
                                     cell.ASCIIvalue.text = " - "
                                 }
 
+                            if (x==0)
+                                {
+                                cell.presentedValue.text = String(exponentValueSimple)
+                                }
                             
                             if (cell.ASCIIvalue.text!.characters.count > 5)
                                 {
@@ -469,18 +477,29 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
                                 }
                             else
                                 {
-                                    cell.presentedValue.text = String(exponentValue)
+                                    if (x==0) //If the exponents is zero we want to print as a simple integer
+                                        {
+                                            cell.presentedValue.text = String(exponentValueSimple)
+                                        }
+                                    else     //If exponent is non-zero, we want to print the value in decimal
+                                        {
+                                            cell.presentedValue.text = String(exponentValue)
+                                        }
                                 }
 
+                            
                         }
                     
-                        cell.presentedValue.text = cell.presentedValue.text! + " " + (self.characteristicUnitString[Mycharacteristic.UUID] ?? " ")
-                        cell.userDescription.text = self.characteristicUserDescription[Mycharacteristic.UUID] ?? " ~"
-                        cell.valueFormat.text = self.characteristicNumberFormatString[Mycharacteristic.UUID] ?? " None given"
-                        cell.valueUnits.text = self.characteristicUnitString[Mycharacteristic.UUID] ?? "None"
+                    cell.valueFormat.text = self.characteristicNumberFormatString[Mycharacteristic.UUID] ?? " None given"
                     
+                    cell.valueUnits.text = self.characteristicUnitString[Mycharacteristic.UUID] ?? " "
                     
-                
+                    cell.userDescription.text = self.characteristicUserDescription[Mycharacteristic.UUID] ?? " "
+                    
+                    let combinedString = " " + (cell.userDescription.text ?? " - ")
+                    
+                    cell.presentedValue.text = cell.presentedValue.text! + " " + (self.characteristicUnitString[Mycharacteristic.UUID] ?? " ") + combinedString
+                    
                     }
             return cell
             }
@@ -489,10 +508,10 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
           {
              return UITableViewCell()
           }
-  
-    
 }
 
+    
+    
 @IBAction func unSubscribe(sender: UIButton)
 {
     let UNScharacteristic = self.foundCharacteristics[sender.tag]!
