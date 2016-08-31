@@ -272,7 +272,7 @@ func peripheral(peripheral: CBPeripheral, didUpdateValueForDescriptor desc: CBDe
         
             if desc.description.rangeOfString("Characteristic User Description") != nil
                 {
-                    characteristicUserDescription[desc.characteristic.UUID] = desc.value as!String
+                    characteristicUserDescription[desc.characteristic.UUID] = desc.value as?String
                     print("Stored User Description: \(desc.characteristic.UUID) : \(characteristicUserDescription[desc.characteristic.UUID]!) ")
                 }
             
@@ -332,6 +332,11 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
 
 {
     var UpdateValue: Int64 = 0
+    let date=NSDate()
+    let dateFormatter = NSDateFormatter()
+    dateFormatter.dateFormat = "HH:mm:ss.SSS"
+    let convertedDate = dateFormatter.stringFromDate(date)
+    
     
     if foundCharacteristics.count > 0
         {
@@ -381,24 +386,24 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
                     else { cell.Unsubscribe.hidden = true}
                     
                     if 0 != MyProperties & 2
-                    {
-                        let date=NSDate()
-                        let dateFormatter = NSDateFormatter()
-                        dateFormatter.dateFormat = "HH:mm:ss.SSS"
-                        let convertedDate = dateFormatter.stringFromDate(date)
-                        
-                        subString = " - READ AT " + convertedDate
-                    }
+                        {
+                            let date2=NSDate()
+                            let dateFormatter2 = NSDateFormatter()
+                            dateFormatter2.dateFormat = "HH:mm:ss.SSS"
+                            let convertedDate2 = dateFormatter2.stringFromDate(date2)
+  
+                            subString = " - READ AT " + convertedDate2
+                        }
 
                     if 0 != MyProperties & 16 || 0 != MyProperties & 32
                         {
                             if ((self.characteristicSubscribed[Mycharacteristic.UUID] ?? 0) == 0)
                                 {
-                                    subString = " - UNSUBSCRIBED"
+                                    subString = "  - UNSUBSCRIBED"
                                 }
                             if ((self.characteristicSubscribed[Mycharacteristic.UUID] ?? 0) == 1 || (self.characteristicSubscribed[Mycharacteristic.UUID] ?? 0) == 2)
                                 {
-                                    subString = " - SUBSCRIBED"
+                                    subString = "  - SUBSCRIBED updated:" + convertedDate
                                 }
                         }
 
