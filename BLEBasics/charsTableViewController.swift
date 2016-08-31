@@ -551,7 +551,6 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
         print("NEW NSString: \(myNSString)")
 
         var newValue: Int32 = 0
-        var newValue64: Int64 = 0
         var dummyValue: Int8 = 1
         var anothernewValue: UInt32 = 0
         var anothernewValue64: UInt64 = 0
@@ -562,7 +561,7 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
         
         if myNSString.containsString("\"")  //If it contains text in quotes, let's send the text (without the quotes)
             {
-                var wrongString = writeString.stringByReplacingOccurrencesOfString("\"", withString: "", options: NSStringCompareOptions.LiteralSearch, range: nil)
+                let wrongString = writeString.stringByReplacingOccurrencesOfString("\"", withString: "", options: NSStringCompareOptions.LiteralSearch, range: nil)
                 let myNSString2: NSString = wrongString
                 newValueNSD = myNSString2.dataUsingEncoding(NSUTF8StringEncoding)!
             }
