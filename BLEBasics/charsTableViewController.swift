@@ -300,10 +300,11 @@ func peripheral(peripheral: CBPeripheral, didUpdateValueForDescriptor desc: CBDe
                     
                     desc.value!.getBytes(&Units, range: NSMakeRange(2,2)) //Converts NSData object to Integer
                     characteristicUnits[desc.characteristic.UUID] = Units
-                    characteristicUnitString[desc.characteristic.UUID] = unitDefinitions[Units]!
+                    characteristicUnitString[desc.characteristic.UUID] = unitDefinitions[Units ?? 0x2700]
                     
                     print("Stored Units: \(desc.characteristic.UUID) : 0x\(NSString(format:"%2X",characteristicUnits[desc.characteristic.UUID]!))")
-                    print("Stored Unit String: \(desc.characteristic.UUID) : \(characteristicUnitString[desc.characteristic.UUID]!)")
+ 
+                    print("Stored Unit String: \(desc.characteristic.UUID) : \(characteristicUnitString[desc.characteristic.UUID] ?? "None")")
                     
                     tableView.reloadData()
                     
