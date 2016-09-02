@@ -498,7 +498,11 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
                     
                     cell.valueFormat.text = self.characteristicNumberFormatString[Mycharacteristic.UUID] ?? " None given"
                     
-                    cell.valueUnits.text = self.characteristicUnitString[Mycharacteristic.UUID] ?? " "
+                   let MyUnitString = "0x" + String(format:"%2X",self.characteristicUnits[Mycharacteristic.UUID] ?? 0x2700)
+                 
+                    let MyUnitString2 = self.characteristicUnitString[Mycharacteristic.UUID] ?? " "
+                    
+                    cell.valueUnits.text = MyUnitString + " " + MyUnitString2
                     
                     cell.userDescription.text = self.characteristicUserDescription[Mycharacteristic.UUID] ?? " "
                     
