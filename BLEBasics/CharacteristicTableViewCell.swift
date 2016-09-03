@@ -21,6 +21,7 @@ class CharacteristicTableViewCell: UITableViewCell
     @IBOutlet var rawValue: UILabel!
     @IBOutlet var ASCIIvalue: UILabel!
     @IBOutlet var hexValue: UILabel!
+    @IBOutlet var presentationFormat: UILabel!
     @IBOutlet var decValue: UILabel!
     @IBOutlet var userDescription: UILabel!
     @IBOutlet var valueFormat: UILabel!

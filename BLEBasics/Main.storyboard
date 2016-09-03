@@ -21,65 +21,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blegaugesicon3.png" translatesAutoresizingMaskIntoConstraints="NO" id="atZ-Dm-UxR">
-                                <rect key="frame" x="122" y="445" width="97" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blegaugesicon3.png" translatesAutoresizingMaskIntoConstraints="NO" id="atZ-Dm-UxR">
+                                <rect key="frame" x="140" y="445" width="97" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="6F9-Zj-7xJ"/>
-                                    <constraint firstAttribute="height" constant="100" id="Mdb-eg-6SB"/>
-                                    <constraint firstAttribute="width" secondItem="atZ-Dm-UxR" secondAttribute="height" multiplier="97:100" id="cPY-VO-Xpo"/>
+                                    <constraint firstAttribute="width" constant="97" id="31u-IN-akP"/>
+                                    <constraint firstAttribute="height" constant="100" id="cwX-EQ-cRl"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-D6-ua1">
-                                <rect key="frame" x="52" y="74" width="220" height="215"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-D6-ua1">
+                                <rect key="frame" x="70" y="74" width="220" height="215"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="220" id="SES-s3-9Te"/>
+                                    <constraint firstAttribute="width" constant="220" id="1Xc-IB-6dh"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="yKS-ym-LnN" kind="show" id="bFy-DO-qE1"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="vh8-O2-7e9">
-                                <rect key="frame" x="42" y="74" width="240" height="245"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="vh8-O2-7e9">
+                                <rect key="frame" x="60" y="72" width="240" height="245"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="vh8-O2-7e9" secondAttribute="height" multiplier="48:49" id="9Ya-ER-GT1"/>
+                                    <constraint firstAttribute="width" secondItem="vh8-O2-7e9" secondAttribute="height" multiplier="48:49" id="Zii-Id-aRA"/>
+                                    <constraint firstAttribute="width" secondItem="vh8-O2-7e9" secondAttribute="height" multiplier="48:49" id="sUv-km-ZHD"/>
+                                    <constraint firstAttribute="width" secondItem="vh8-O2-7e9" secondAttribute="height" multiplier="48:49" id="u0y-4W-a1J"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLM-xf-gA8">
-                                <rect key="frame" x="113" y="439" width="114" height="111"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLM-xf-gA8">
+                                <rect key="frame" x="131" y="439" width="114" height="111"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="114" id="3QT-Vx-OFn"/>
+                                    <constraint firstAttribute="width" constant="114" id="E3Z-lm-Sou"/>
+                                    <constraint firstAttribute="width" secondItem="cLM-xf-gA8" secondAttribute="height" multiplier="38:37" id="ZHJ-ez-nGJ"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="nrb-kI-WTu" kind="show" id="MXr-qb-o1E"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLE Basics" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIA-BV-aT1">
-                                <rect key="frame" x="47" y="343" width="260" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BLE Basics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIA-BV-aT1">
+                                <rect key="frame" x="27" y="340" width="306" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="KUK-gH-cdp"/>
-                                    <constraint firstAttribute="height" constant="72" id="hrs-Wf-gim"/>
+                                    <constraint firstAttribute="height" constant="72" id="zea-LS-84W"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <color key="textColor" red="0.001251116281" green="0.50726030759999996" blue="0.1231064045" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                                <color key="textColor" red="0.17537075630000001" green="1" blue="0.28985439740000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="1"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.90815329891235097" blue="0.68379315972534482" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="vh8-O2-7e9" firstAttribute="top" secondItem="IgA-D6-ua1" secondAttribute="top" id="0eK-Gn-23L"/>
-                            <constraint firstItem="IgA-D6-ua1" firstAttribute="top" secondItem="TiO-Uy-YjE" secondAttribute="bottom" constant="10" id="3P4-ys-NlB"/>
-                            <constraint firstItem="cLM-xf-gA8" firstAttribute="centerX" secondItem="atZ-Dm-UxR" secondAttribute="centerX" id="KOc-AT-zDe"/>
-                            <constraint firstItem="IgA-D6-ua1" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="32" id="WVQ-aC-lz0"/>
-                            <constraint firstItem="cLM-xf-gA8" firstAttribute="centerY" secondItem="atZ-Dm-UxR" secondAttribute="centerY" id="cYT-9q-Oab"/>
-                            <constraint firstItem="sIA-BV-aT1" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="27" id="dnR-sQ-7fF"/>
-                            <constraint firstItem="sIA-BV-aT1" firstAttribute="top" secondItem="IgA-D6-ua1" secondAttribute="bottom" constant="54" id="fNp-mV-dcj"/>
-                            <constraint firstItem="vh8-O2-7e9" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="22" id="iTi-cn-2V5"/>
-                            <constraint firstItem="atZ-Dm-UxR" firstAttribute="top" secondItem="sIA-BV-aT1" secondAttribute="bottom" constant="30" id="jNi-Co-2UM"/>
-                            <constraint firstItem="KFR-Gf-KWi" firstAttribute="top" secondItem="cLM-xf-gA8" secondAttribute="bottom" constant="50" id="pdW-xv-Nof"/>
-                            <constraint firstItem="sIA-BV-aT1" firstAttribute="top" secondItem="vh8-O2-7e9" secondAttribute="bottom" constant="24" id="uy2-sE-Pa2"/>
-                            <constraint firstItem="cLM-xf-gA8" firstAttribute="top" secondItem="sIA-BV-aT1" secondAttribute="bottom" constant="24" id="w0d-YF-05N"/>
-                            <constraint firstItem="IgA-D6-ua1" firstAttribute="centerX" secondItem="vh8-O2-7e9" secondAttribute="centerX" id="wEJ-IN-A0l"/>
-                            <constraint firstItem="cLM-xf-gA8" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="93" id="xm8-2y-fSC"/>
+                            <constraint firstItem="cLM-xf-gA8" firstAttribute="top" secondItem="sIA-BV-aT1" secondAttribute="bottom" constant="27" id="185-dY-GCZ"/>
+                            <constraint firstItem="cLM-xf-gA8" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leading" constant="131" id="3dh-za-vzE"/>
+                            <constraint firstItem="cLM-xf-gA8" firstAttribute="centerY" secondItem="atZ-Dm-UxR" secondAttribute="centerY" id="ETR-sx-az2"/>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="centerX" secondItem="sIA-BV-aT1" secondAttribute="centerX" id="EZ7-Sa-qxC"/>
+                            <constraint firstItem="atZ-Dm-UxR" firstAttribute="centerX" secondItem="cvL-A0-H1a" secondAttribute="centerX" id="Ezk-vl-i3M"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="top" secondItem="TiO-Uy-YjE" secondAttribute="bottom" constant="8" symbolic="YES" id="GPB-N0-FjL"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="centerX" secondItem="cvL-A0-H1a" secondAttribute="centerX" id="HHu-0o-XeM"/>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="50" id="QS7-L2-hA4"/>
+                            <constraint firstItem="KFR-Gf-KWi" firstAttribute="top" secondItem="cLM-xf-gA8" secondAttribute="bottom" constant="50" id="Tih-od-aJR"/>
+                            <constraint firstItem="atZ-Dm-UxR" firstAttribute="top" secondItem="sIA-BV-aT1" secondAttribute="bottom" constant="33" id="W1S-hx-DNc"/>
+                            <constraint firstItem="sIA-BV-aT1" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="7" id="XhT-e8-gWr"/>
+                            <constraint firstItem="cLM-xf-gA8" firstAttribute="centerX" secondItem="cvL-A0-H1a" secondAttribute="centerX" id="ZTm-lg-Wh0"/>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="top" secondItem="TiO-Uy-YjE" secondAttribute="bottom" constant="10" id="ZyF-39-zZZ"/>
+                            <constraint firstItem="sIA-BV-aT1" firstAttribute="top" secondItem="IgA-D6-ua1" secondAttribute="bottom" constant="51" id="bcn-hW-Odz"/>
+                            <constraint firstItem="sIA-BV-aT1" firstAttribute="top" secondItem="vh8-O2-7e9" secondAttribute="bottom" constant="23" id="e80-ui-RDS"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="leading" secondItem="cvL-A0-H1a" secondAttribute="leadingMargin" constant="40" id="jsJ-jw-350"/>
+                            <constraint firstItem="vh8-O2-7e9" firstAttribute="centerX" secondItem="IgA-D6-ua1" secondAttribute="centerX" id="k0X-Wx-ZKJ"/>
+                            <constraint firstItem="cLM-xf-gA8" firstAttribute="centerX" secondItem="atZ-Dm-UxR" secondAttribute="centerX" id="s9l-BO-8y8"/>
+                            <constraint firstItem="IgA-D6-ua1" firstAttribute="centerX" secondItem="cvL-A0-H1a" secondAttribute="centerX" id="yps-c6-2RK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mhc-6h-98J">
@@ -230,82 +238,87 @@
         <scene sceneID="OUC-Zy-IsV">
             <objects>
                 <tableViewController title="Chacteristics" id="GbT-iF-Rxf" customClass="charsTableViewController" customModule="BLEBasics" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="359" sectionHeaderHeight="28" sectionFooterHeight="28" id="Imq-vo-OuB">
+                    <tableView key="view" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="349" sectionHeaderHeight="28" sectionFooterHeight="28" id="Imq-vo-OuB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" red="1" green="0.95715630460000001" blue="0.69833737780000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.99607843139999996" green="1" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="charsCell" rowHeight="359" id="9bJ-kJ-m34" customClass="CharacteristicTableViewCell" customModule="BLEBasics" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="359"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="charsCell" rowHeight="349" id="9bJ-kJ-m34" customClass="CharacteristicTableViewCell" customModule="BLEBasics" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="349"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9bJ-kJ-m34" id="Id6-IA-Ocs">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="358"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="348"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UUID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFN-P6-EPl">
-                                            <rect key="frame" x="17" y="8" width="80" height="21"/>
+                                            <rect key="frame" x="17" y="9" width="80" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="LNk-cP-M5V"/>
-                                                <constraint firstAttribute="width" constant="80" id="U4v-HA-Jeg"/>
+                                                <constraint firstAttribute="height" constant="21" id="8N0-ar-tNZ"/>
+                                                <constraint firstAttribute="width" constant="80" id="gC5-Lr-uKM"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Properties:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r51-sA-nav">
-                                            <rect key="frame" x="57" y="66" width="111" height="26"/>
+                                            <rect key="frame" x="69" y="65" width="118" height="26"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="111" id="4hA-xD-7cw"/>
-                                                <constraint firstAttribute="height" constant="26" id="muW-Mh-CBu"/>
+                                                <constraint firstAttribute="width" constant="118" id="AYt-3r-vaL"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgg-uV-uvQ">
-                                            <rect key="frame" x="165" y="66" width="55" height="26"/>
+                                            <rect key="frame" x="183" y="66" width="55" height="26"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="55" id="2ut-hV-fEW"/>
+                                                <constraint firstAttribute="width" constant="55" id="r3T-PE-w6B"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdS-qz-HDr">
-                                            <rect key="frame" x="75" y="100" width="492" height="29"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmP-rI-Wo2">
-                                            <rect key="frame" x="17" y="142" width="59" height="21"/>
+                                            <rect key="frame" x="75" y="94" width="492" height="20"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="Mbw-bX-TFG"/>
-                                                <constraint firstAttribute="width" constant="59" id="sfv-0F-zxb"/>
+                                                <constraint firstAttribute="height" constant="20" id="gd3-f8-uLC"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="La3-uw-byY">
-                                            <rect key="frame" x="78" y="137" width="496" height="31"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Value:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmP-rI-Wo2">
+                                            <rect key="frame" x="17" y="121" width="76" height="25"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="76" id="7K4-tk-59t"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" - " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="La3-uw-byY">
+                                            <rect key="frame" x="94" y="121" width="489" height="26"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOk-PX-G5z">
-                                            <rect key="frame" x="17" y="37" width="116" height="21"/>
+                                            <rect key="frame" x="17" y="38" width="116" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="116" id="Wx2-B1-tsW"/>
+                                                <constraint firstAttribute="width" constant="116" id="LHq-uA-yiv"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ci-Nf-g24">
-                                            <rect key="frame" x="94" y="8" width="473" height="21"/>
+                                            <rect key="frame" x="94" y="9" width="473" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                             <color key="textColor" red="0.874856839" green="0.032187731480000002" blue="0.1361329208" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -313,24 +326,25 @@
                                             <size key="shadowOffset" width="2" height="1"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   -" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlE-2j-wkg">
-                                            <rect key="frame" x="136" y="34" width="431" height="25"/>
+                                            <rect key="frame" x="136" y="35" width="431" height="25"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgG-bd-M7D">
-                                            <rect key="frame" x="8" y="59" width="41" height="40"/>
+                                            <rect key="frame" x="20" y="67" width="41" height="40"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="41" id="SQG-l8-d2y"/>
+                                                <constraint firstAttribute="width" constant="41" id="6o8-ux-hYL"/>
+                                                <constraint firstAttribute="width" secondItem="OgG-bd-M7D" secondAttribute="height" multiplier="41:40" id="JTV-cv-4kw"/>
                                             </constraints>
                                             <state key="normal" title="ON/OFF" image="blegaugesicon3.png">
                                                 <color key="titleColor" red="0.99607843139999996" green="1" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
                                         </button>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-b4-X4O">
-                                            <rect key="frame" x="78" y="142" width="483" height="30"/>
-                                            <color key="backgroundColor" red="0.99607843139999996" green="1" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-b4-X4O">
+                                            <rect key="frame" x="94" y="118" width="491" height="30"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
@@ -339,92 +353,92 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="allowedChars" value="&lt;&gt;0123456789abcdefx&quot; "/>
                                             </userDefinedRuntimeAttributes>
                                         </textField>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UTF8:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFT-Ia-mCd">
-                                            <rect key="frame" x="17" y="186" width="55" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="UTF8:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFT-Ia-mCd">
+                                            <rect key="frame" x="21" y="152" width="55" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="55" id="6sb-y8-xVX"/>
+                                                <constraint firstAttribute="width" constant="55" id="GFC-6U-WCM"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" ~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU2-yz-ifU">
-                                            <rect key="frame" x="76" y="186" width="493" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" ~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU2-yz-ifU">
+                                            <rect key="frame" x="79" y="152" width="493" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hex:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAW-tt-70w">
-                                            <rect key="frame" x="48" y="210" width="42" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hex:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAW-tt-70w">
+                                            <rect key="frame" x="89" y="175" width="42" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="42" id="pQF-cm-NDh"/>
+                                                <constraint firstAttribute="width" constant="42" id="nvn-Jh-Oi6"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0x00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QB9-J1-PY7">
-                                            <rect key="frame" x="98" y="210" width="471" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0x00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QB9-J1-PY7">
+                                            <rect key="frame" x="137" y="175" width="435" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decimal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-n7-2i9">
-                                            <rect key="frame" x="17" y="232" width="76" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Decimal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-n7-2i9">
+                                            <rect key="frame" x="55" y="199" width="76" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrU-Ez-51O">
-                                            <rect key="frame" x="98" y="232" width="471" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrU-Ez-51O">
+                                            <rect key="frame" x="137" y="199" width="435" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numeric Format:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZN-nf-7YK">
-                                            <rect key="frame" x="17" y="256" width="136" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Numeric Format:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZN-nf-7YK">
+                                            <rect key="frame" x="40" y="254" width="136" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="136" id="UA7-M8-HQL"/>
+                                                <constraint firstAttribute="width" constant="136" id="P4n-0A-7Ps"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" None given" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hH2-io-6PY">
-                                            <rect key="frame" x="153" y="256" width="416" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" None given" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hH2-io-6PY">
+                                            <rect key="frame" x="181" y="254" width="397" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exponent:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvd-CE-2SU">
-                                            <rect key="frame" x="17" y="285" width="84" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Exponent:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvd-CE-2SU">
+                                            <rect key="frame" x="40" y="278" width="84" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="84" id="tki-eD-Phk"/>
+                                                <constraint firstAttribute="width" constant="84" id="KCF-p4-pVB"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0W-83-Xgl">
-                                            <rect key="frame" x="104" y="285" width="25" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0W-83-Xgl">
+                                            <rect key="frame" x="126" y="278" width="25" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="25" id="zGr-qd-KpT"/>
+                                                <constraint firstAttribute="width" constant="25" id="3e6-4Q-tb1"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Units:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6A-0G-2Wg">
-                                            <rect key="frame" x="132" y="285" width="51" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Units:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6A-0G-2Wg">
+                                            <rect key="frame" x="159" y="278" width="51" height="21"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="51" id="D45-1x-6J1"/>
+                                                <constraint firstAttribute="width" constant="51" id="YA0-E1-rpd"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZE-eH-ce1">
-                                            <rect key="frame" x="17" y="314" width="479" height="36"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZE-eH-ce1">
+                                            <rect key="frame" x="17" y="302" width="479" height="36"/>
                                             <color key="backgroundColor" red="0.99712211380000004" green="1" blue="0.75257436720000004" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                             <color key="textColor" red="0.874856839" green="0.032187731476425688" blue="0.13613292083386797" alpha="1" colorSpace="calibratedRGB"/>
@@ -432,87 +446,113 @@
                                             <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <size key="shadowOffset" width="2" height="1"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9b-LE-u0d">
-                                            <rect key="frame" x="186" y="285" width="379" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="  None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9b-LE-u0d">
+                                            <rect key="frame" x="212" y="278" width="360" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Presentation Format Descriptor:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEF-Ew-FJ3">
+                                            <rect key="frame" x="17" y="222" width="334" height="29"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="Nae-Db-x3z"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="None" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eY2-D9-kZc">
+                                            <rect key="frame" x="352" y="222" width="226" height="29"/>
+                                            <color key="backgroundColor" red="1" green="0.85767193289999999" blue="0.50921609999999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" red="0.99607843137254903" green="1" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="YOk-PX-G5z" firstAttribute="top" secondItem="mFN-P6-EPl" secondAttribute="bottom" constant="8" symbolic="YES" id="05T-dx-6Bf"/>
-                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="9" id="2ej-Hg-Gwd"/>
-                                        <constraint firstItem="r51-sA-nav" firstAttribute="top" secondItem="YOk-PX-G5z" secondAttribute="bottom" constant="8" symbolic="YES" id="3HN-nd-hox"/>
-                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="centerY" secondItem="La3-uw-byY" secondAttribute="centerY" id="3Oa-kS-9uI"/>
-                                        <constraint firstItem="r51-sA-nav" firstAttribute="firstBaseline" secondItem="mgg-uV-uvQ" secondAttribute="firstBaseline" id="3XR-If-V0b"/>
-                                        <constraint firstItem="Hvd-CE-2SU" firstAttribute="leading" secondItem="AZE-eH-ce1" secondAttribute="leading" id="43K-P4-X7f"/>
-                                        <constraint firstItem="YOk-PX-G5z" firstAttribute="baseline" secondItem="MlE-2j-wkg" secondAttribute="firstBaseline" id="48C-v8-ejZ"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="AZE-eH-ce1" secondAttribute="trailing" constant="96" id="4f1-6V-qqp"/>
-                                        <constraint firstItem="lFT-Ia-mCd" firstAttribute="baseline" secondItem="rU2-yz-ifU" secondAttribute="firstBaseline" id="6TX-ED-dWt"/>
-                                        <constraint firstItem="OgG-bd-M7D" firstAttribute="top" secondItem="YOk-PX-G5z" secondAttribute="bottom" constant="1" id="73m-qo-bH9"/>
-                                        <constraint firstItem="La3-uw-byY" firstAttribute="leading" secondItem="vEv-b4-X4O" secondAttribute="leading" id="9Ph-gb-jb6"/>
-                                        <constraint firstItem="r51-sA-nav" firstAttribute="leading" secondItem="OgG-bd-M7D" secondAttribute="trailing" constant="8" symbolic="YES" id="Ak0-2h-T6F"/>
-                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="top" secondItem="OgG-bd-M7D" secondAttribute="bottom" constant="43" id="CMS-F9-3RX"/>
-                                        <constraint firstItem="qbM-n7-2i9" firstAttribute="leading" secondItem="FZN-nf-7YK" secondAttribute="leading" id="ChX-b6-iJ4"/>
-                                        <constraint firstItem="hH2-io-6PY" firstAttribute="baseline" secondItem="FZN-nf-7YK" secondAttribute="firstBaseline" id="E2z-lw-CxO"/>
-                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="leading" secondItem="JrU-Ez-51O" secondAttribute="leading" id="Ffp-qt-MDg"/>
-                                        <constraint firstItem="MlE-2j-wkg" firstAttribute="top" secondItem="9ci-Nf-g24" secondAttribute="bottom" constant="5" id="Fu8-tp-uag"/>
-                                        <constraint firstItem="a0W-83-Xgl" firstAttribute="leading" secondItem="Hvd-CE-2SU" secondAttribute="trailing" constant="3" id="H7q-ZO-CbJ"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="rU2-yz-ifU" secondAttribute="trailing" constant="23" id="HFp-7z-ie0"/>
-                                        <constraint firstItem="jAW-tt-70w" firstAttribute="top" secondItem="lFT-Ia-mCd" secondAttribute="bottom" constant="3" id="HcY-vI-7fj"/>
-                                        <constraint firstItem="R6A-0G-2Wg" firstAttribute="baseline" secondItem="q9b-LE-u0d" secondAttribute="baseline" id="I2W-IK-AxH"/>
-                                        <constraint firstItem="R6A-0G-2Wg" firstAttribute="leading" secondItem="a0W-83-Xgl" secondAttribute="trailing" constant="3" id="IfZ-09-yGV"/>
-                                        <constraint firstItem="jAW-tt-70w" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="40" id="JKw-s0-p2H"/>
-                                        <constraint firstItem="vEv-b4-X4O" firstAttribute="leading" secondItem="qmP-rI-Wo2" secondAttribute="trailing" constant="2" id="Jqk-sw-0iS"/>
-                                        <constraint firstItem="JrU-Ez-51O" firstAttribute="leading" secondItem="qbM-n7-2i9" secondAttribute="trailing" constant="5" id="M1G-Z6-xDp"/>
-                                        <constraint firstItem="rU2-yz-ifU" firstAttribute="top" secondItem="La3-uw-byY" secondAttribute="bottom" constant="18" id="M5T-Xa-RQb"/>
-                                        <constraint firstItem="hH2-io-6PY" firstAttribute="leading" secondItem="FZN-nf-7YK" secondAttribute="trailing" id="MUx-dT-OlA"/>
-                                        <constraint firstItem="9ci-Nf-g24" firstAttribute="trailing" secondItem="MlE-2j-wkg" secondAttribute="trailing" id="MtM-BI-Wp0"/>
-                                        <constraint firstItem="rU2-yz-ifU" firstAttribute="leading" secondItem="lFT-Ia-mCd" secondAttribute="trailing" constant="4" id="P5h-Yz-nFI"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="vEv-b4-X4O" secondAttribute="trailing" constant="31" id="PSz-QG-Sst"/>
-                                        <constraint firstItem="OgG-bd-M7D" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" id="Pxe-i7-dSI"/>
-                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="top" secondItem="qbM-n7-2i9" secondAttribute="bottom" constant="3" id="RIC-MY-pDZ"/>
-                                        <constraint firstItem="r51-sA-nav" firstAttribute="top" secondItem="MlE-2j-wkg" secondAttribute="bottom" constant="7" id="RSq-mx-bjq"/>
-                                        <constraint firstItem="Hvd-CE-2SU" firstAttribute="baseline" secondItem="a0W-83-Xgl" secondAttribute="baseline" id="Rzq-9s-zWG"/>
-                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="baseline" secondItem="9ci-Nf-g24" secondAttribute="baseline" id="S9c-p4-9JU"/>
-                                        <constraint firstItem="vEv-b4-X4O" firstAttribute="top" secondItem="LdS-qz-HDr" secondAttribute="bottom" constant="13" id="SWN-tm-5iN"/>
-                                        <constraint firstItem="LdS-qz-HDr" firstAttribute="top" secondItem="r51-sA-nav" secondAttribute="bottom" constant="8" symbolic="YES" id="TiL-hX-Eoj"/>
-                                        <constraint firstItem="AZE-eH-ce1" firstAttribute="bottom" secondItem="Id6-IA-Ocs" secondAttribute="bottomMargin" id="VkX-kn-4V0"/>
-                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="leading" secondItem="jAW-tt-70w" secondAttribute="trailing" constant="8" symbolic="YES" id="XCk-yC-5kj"/>
-                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="top" secondItem="9ci-Nf-g24" secondAttribute="top" id="XMa-g5-yLF"/>
-                                        <constraint firstItem="JrU-Ez-51O" firstAttribute="trailing" secondItem="hH2-io-6PY" secondAttribute="trailing" id="YGq-fR-5r7"/>
-                                        <constraint firstItem="a0W-83-Xgl" firstAttribute="baseline" secondItem="Hvd-CE-2SU" secondAttribute="firstBaseline" id="ZCw-b6-xek"/>
-                                        <constraint firstItem="lFT-Ia-mCd" firstAttribute="leading" secondItem="qbM-n7-2i9" secondAttribute="leading" id="ZIw-jn-n0p"/>
-                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="trailing" secondItem="JrU-Ez-51O" secondAttribute="trailing" id="axH-BO-2Np"/>
-                                        <constraint firstItem="mgg-uV-uvQ" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leading" constant="165" id="cS7-12-aAV"/>
-                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="leading" secondItem="lFT-Ia-mCd" secondAttribute="leading" id="cob-mz-cVh"/>
-                                        <constraint firstItem="r51-sA-nav" firstAttribute="baseline" secondItem="mgg-uV-uvQ" secondAttribute="baseline" id="cqT-NN-gY1"/>
-                                        <constraint firstItem="Hvd-CE-2SU" firstAttribute="top" secondItem="FZN-nf-7YK" secondAttribute="bottom" constant="8" symbolic="YES" id="dP6-kx-Yyq"/>
-                                        <constraint firstItem="a0W-83-Xgl" firstAttribute="baseline" secondItem="R6A-0G-2Wg" secondAttribute="baseline" id="dde-cR-sQY"/>
-                                        <constraint firstItem="9ci-Nf-g24" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="86" id="eRq-nE-XWQ"/>
-                                        <constraint firstItem="MlE-2j-wkg" firstAttribute="trailing" secondItem="LdS-qz-HDr" secondAttribute="trailing" id="iEp-RN-SqN"/>
-                                        <constraint firstItem="qbM-n7-2i9" firstAttribute="top" secondItem="jAW-tt-70w" secondAttribute="bottom" constant="1" id="iMo-iR-SVd"/>
-                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="baseline" secondItem="jAW-tt-70w" secondAttribute="firstBaseline" id="j4W-VC-rpE"/>
-                                        <constraint firstItem="rU2-yz-ifU" firstAttribute="trailing" secondItem="QB9-J1-PY7" secondAttribute="trailing" id="jTR-Nj-sXT"/>
-                                        <constraint firstItem="JrU-Ez-51O" firstAttribute="baseline" secondItem="qbM-n7-2i9" secondAttribute="firstBaseline" id="kqV-K7-OG9"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="q9b-LE-u0d" secondAttribute="trailing" constant="27" id="nRW-bd-yay"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="La3-uw-byY" secondAttribute="trailing" constant="18" id="o8j-oX-Tge"/>
-                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="leading" secondItem="Hvd-CE-2SU" secondAttribute="leading" id="oyk-fD-k7r"/>
-                                        <constraint firstItem="MlE-2j-wkg" firstAttribute="leading" secondItem="YOk-PX-G5z" secondAttribute="trailing" constant="3" id="pf4-St-yqM"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="9ci-Nf-g24" secondAttribute="trailing" constant="25" id="pou-f2-vfc"/>
-                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="baseline" secondItem="hH2-io-6PY" secondAttribute="baseline" id="q6j-XT-b7z"/>
-                                        <constraint firstItem="jAW-tt-70w" firstAttribute="baseline" secondItem="QB9-J1-PY7" secondAttribute="baseline" id="qT1-1i-Sr1"/>
-                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="top" secondItem="vEv-b4-X4O" secondAttribute="top" id="qex-gm-hro"/>
-                                        <constraint firstItem="LdS-qz-HDr" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="67" id="rAU-6A-c0Y"/>
-                                        <constraint firstItem="La3-uw-byY" firstAttribute="top" secondItem="LdS-qz-HDr" secondAttribute="bottom" constant="8" symbolic="YES" id="rmT-Ch-lFm"/>
-                                        <constraint firstItem="q9b-LE-u0d" firstAttribute="leading" secondItem="R6A-0G-2Wg" secondAttribute="trailing" constant="3" id="tCJ-3I-zfN"/>
-                                        <constraint firstItem="YOk-PX-G5z" firstAttribute="leading" secondItem="qmP-rI-Wo2" secondAttribute="leading" id="tSm-X9-xEZ"/>
-                                        <constraint firstItem="OgG-bd-M7D" firstAttribute="centerY" secondItem="r51-sA-nav" secondAttribute="centerY" id="uwm-lE-WAp"/>
-                                        <constraint firstItem="qbM-n7-2i9" firstAttribute="baseline" secondItem="JrU-Ez-51O" secondAttribute="baseline" id="vUJ-2e-Zpx"/>
-                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="leading" secondItem="YOk-PX-G5z" secondAttribute="leading" id="va6-je-GU5"/>
-                                        <constraint firstItem="AZE-eH-ce1" firstAttribute="top" secondItem="Hvd-CE-2SU" secondAttribute="bottom" constant="8" symbolic="YES" id="yru-Tb-03m"/>
-                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="top" secondItem="Id6-IA-Ocs" secondAttribute="topMargin" id="zs1-rp-upk"/>
+                                        <constraint firstItem="mgg-uV-uvQ" firstAttribute="top" secondItem="MlE-2j-wkg" secondAttribute="bottom" constant="6" id="0Ft-kQ-kUy"/>
+                                        <constraint firstItem="lFT-Ia-mCd" firstAttribute="baseline" secondItem="rU2-yz-ifU" secondAttribute="baseline" id="14k-Gl-eDR"/>
+                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="baseline" secondItem="jAW-tt-70w" secondAttribute="firstBaseline" id="1AA-2A-3Cg"/>
+                                        <constraint firstItem="rU2-yz-ifU" firstAttribute="top" secondItem="La3-uw-byY" secondAttribute="bottom" constant="5" id="2I9-UC-Mml"/>
+                                        <constraint firstItem="lFT-Ia-mCd" firstAttribute="baseline" secondItem="rU2-yz-ifU" secondAttribute="firstBaseline" id="35C-jb-rxG"/>
+                                        <constraint firstItem="Hvd-CE-2SU" firstAttribute="top" secondItem="FZN-nf-7YK" secondAttribute="bottom" constant="3" id="3i1-6X-QCA"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="AZE-eH-ce1" secondAttribute="bottom" constant="2" id="3kZ-QA-BC4"/>
+                                        <constraint firstItem="IEF-Ew-FJ3" firstAttribute="baseline" secondItem="eY2-D9-kZc" secondAttribute="baseline" id="4iL-uQ-Esa"/>
+                                        <constraint firstItem="mgg-uV-uvQ" firstAttribute="baseline" secondItem="r51-sA-nav" secondAttribute="firstBaseline" id="68G-Py-baB"/>
+                                        <constraint firstItem="JrU-Ez-51O" firstAttribute="trailing" secondItem="q9b-LE-u0d" secondAttribute="trailing" id="68q-aP-z2t"/>
+                                        <constraint firstItem="vEv-b4-X4O" firstAttribute="trailing" secondItem="rU2-yz-ifU" secondAttribute="trailing" constant="13" id="6F1-XI-6El"/>
+                                        <constraint firstItem="LdS-qz-HDr" firstAttribute="top" secondItem="mgg-uV-uvQ" secondAttribute="bottom" constant="2" id="8yN-dc-yH5"/>
+                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="trailing" secondItem="JrU-Ez-51O" secondAttribute="trailing" id="9CR-Z0-gaf"/>
+                                        <constraint firstItem="jAW-tt-70w" firstAttribute="baseline" secondItem="QB9-J1-PY7" secondAttribute="baseline" id="9R5-ud-QEM"/>
+                                        <constraint firstItem="qbM-n7-2i9" firstAttribute="baseline" secondItem="JrU-Ez-51O" secondAttribute="baseline" id="9bs-zz-Ucd"/>
+                                        <constraint firstItem="a0W-83-Xgl" firstAttribute="baseline" secondItem="Hvd-CE-2SU" secondAttribute="firstBaseline" id="AMA-gQ-d0J"/>
+                                        <constraint firstItem="R6A-0G-2Wg" firstAttribute="leading" secondItem="a0W-83-Xgl" secondAttribute="trailing" constant="8" symbolic="YES" id="BFk-vY-YR7"/>
+                                        <constraint firstItem="jAW-tt-70w" firstAttribute="trailing" secondItem="qbM-n7-2i9" secondAttribute="trailing" id="BK1-5a-I67"/>
+                                        <constraint firstItem="La3-uw-byY" firstAttribute="trailing" secondItem="hH2-io-6PY" secondAttribute="trailing" constant="5" id="CBm-JT-qDa"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="vEv-b4-X4O" secondAttribute="trailing" constant="7" id="DcG-a0-vkF"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="eY2-D9-kZc" secondAttribute="trailing" constant="14" id="EG8-Xq-1rE"/>
+                                        <constraint firstItem="mgg-uV-uvQ" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leading" constant="183" id="EJe-1W-ZPD"/>
+                                        <constraint firstItem="IEF-Ew-FJ3" firstAttribute="leading" secondItem="AZE-eH-ce1" secondAttribute="leading" id="Ech-aJ-iLF"/>
+                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="top" secondItem="OgG-bd-M7D" secondAttribute="bottom" constant="14" id="Eyb-SK-6Ug"/>
+                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="top" secondItem="Id6-IA-Ocs" secondAttribute="topMargin" constant="1" id="G4u-Po-sls"/>
+                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="leading" secondItem="Hvd-CE-2SU" secondAttribute="leading" id="Gxj-qh-7Dr"/>
+                                        <constraint firstItem="LdS-qz-HDr" firstAttribute="top" secondItem="r51-sA-nav" secondAttribute="bottom" constant="3" id="H31-cN-46O"/>
+                                        <constraint firstItem="vEv-b4-X4O" firstAttribute="top" secondItem="LdS-qz-HDr" secondAttribute="bottom" constant="4" id="Ish-4u-W1c"/>
+                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="leading" secondItem="YOk-PX-G5z" secondAttribute="leading" id="JqP-QN-s8w"/>
+                                        <constraint firstItem="La3-uw-byY" firstAttribute="leading" secondItem="jAW-tt-70w" secondAttribute="leading" constant="5" id="K8h-Wz-Aro"/>
+                                        <constraint firstItem="Hvd-CE-2SU" firstAttribute="baseline" secondItem="a0W-83-Xgl" secondAttribute="baseline" id="Ld0-1b-wca"/>
+                                        <constraint firstItem="a0W-83-Xgl" firstAttribute="leading" secondItem="Hvd-CE-2SU" secondAttribute="trailing" constant="2" id="M0I-Qw-bFt"/>
+                                        <constraint firstItem="IEF-Ew-FJ3" firstAttribute="top" secondItem="qbM-n7-2i9" secondAttribute="bottom" constant="2" id="Nxd-1M-Dmr"/>
+                                        <constraint firstItem="r51-sA-nav" firstAttribute="top" secondItem="MlE-2j-wkg" secondAttribute="bottom" constant="5" id="OID-Lr-mWH"/>
+                                        <constraint firstItem="YOk-PX-G5z" firstAttribute="leading" secondItem="qmP-rI-Wo2" secondAttribute="leading" id="OxL-TJ-T1D"/>
+                                        <constraint firstItem="MlE-2j-wkg" firstAttribute="top" secondItem="9ci-Nf-g24" secondAttribute="bottom" constant="5" id="Poh-6D-pge"/>
+                                        <constraint firstItem="IEF-Ew-FJ3" firstAttribute="centerX" secondItem="R6A-0G-2Wg" secondAttribute="centerX" id="Qn7-TM-wgB"/>
+                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="leading" secondItem="JrU-Ez-51O" secondAttribute="leading" id="Rvb-nG-Qkp"/>
+                                        <constraint firstItem="q9b-LE-u0d" firstAttribute="leading" secondItem="R6A-0G-2Wg" secondAttribute="trailing" constant="2" id="Rzp-5h-1xP"/>
+                                        <constraint firstItem="La3-uw-byY" firstAttribute="centerY" secondItem="vEv-b4-X4O" secondAttribute="centerY" constant="1" id="SZ1-Lu-YFK"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="9ci-Nf-g24" secondAttribute="trailing" constant="25" id="TdI-P2-3qu"/>
+                                        <constraint firstItem="QB9-J1-PY7" firstAttribute="leading" secondItem="jAW-tt-70w" secondAttribute="trailing" constant="6" id="U7B-Mu-a1m"/>
+                                        <constraint firstItem="AZE-eH-ce1" firstAttribute="top" secondItem="Hvd-CE-2SU" secondAttribute="bottom" constant="3" id="Uu2-FS-pjR"/>
+                                        <constraint firstItem="rU2-yz-ifU" firstAttribute="trailing" secondItem="QB9-J1-PY7" secondAttribute="trailing" id="XzM-AC-YHv"/>
+                                        <constraint firstItem="OgG-bd-M7D" firstAttribute="top" secondItem="YOk-PX-G5z" secondAttribute="bottom" constant="8" symbolic="YES" id="YaV-nq-4Xc"/>
+                                        <constraint firstItem="hH2-io-6PY" firstAttribute="leading" secondItem="FZN-nf-7YK" secondAttribute="trailing" constant="5" id="YjZ-VO-1mi"/>
+                                        <constraint firstItem="9ci-Nf-g24" firstAttribute="trailing" secondItem="MlE-2j-wkg" secondAttribute="trailing" id="aTg-sO-v6c"/>
+                                        <constraint firstItem="OgG-bd-M7D" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="12" id="bKC-7Y-1zj"/>
+                                        <constraint firstItem="IEF-Ew-FJ3" firstAttribute="firstBaseline" secondItem="eY2-D9-kZc" secondAttribute="firstBaseline" id="cYq-dn-KqW"/>
+                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="9" id="d00-CQ-tob"/>
+                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="baseline" secondItem="hH2-io-6PY" secondAttribute="baseline" id="drf-ci-kNv"/>
+                                        <constraint firstItem="r51-sA-nav" firstAttribute="leading" secondItem="OgG-bd-M7D" secondAttribute="trailing" constant="8" symbolic="YES" id="eNI-xX-wKe"/>
+                                        <constraint firstItem="hH2-io-6PY" firstAttribute="baseline" secondItem="FZN-nf-7YK" secondAttribute="firstBaseline" id="eOm-Qu-jcu"/>
+                                        <constraint firstItem="LdS-qz-HDr" firstAttribute="leading" secondItem="OgG-bd-M7D" secondAttribute="trailing" constant="14" id="fCG-rp-gfW"/>
+                                        <constraint firstItem="MlE-2j-wkg" firstAttribute="trailing" secondItem="LdS-qz-HDr" secondAttribute="trailing" id="gs3-kC-Izs"/>
+                                        <constraint firstItem="YOk-PX-G5z" firstAttribute="baseline" secondItem="MlE-2j-wkg" secondAttribute="firstBaseline" id="gw3-y7-beB"/>
+                                        <constraint firstItem="lFT-Ia-mCd" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="13" id="h5r-7s-ekq"/>
+                                        <constraint firstItem="MlE-2j-wkg" firstAttribute="leading" secondItem="YOk-PX-G5z" secondAttribute="trailing" constant="3" id="hLE-qv-BPx"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="La3-uw-byY" secondAttribute="trailing" constant="9" id="hlU-jF-50j"/>
+                                        <constraint firstItem="R6A-0G-2Wg" firstAttribute="baseline" secondItem="q9b-LE-u0d" secondAttribute="baseline" id="ibe-tI-yX7"/>
+                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="32" id="jAo-Sj-kng"/>
+                                        <constraint firstItem="qbM-n7-2i9" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="47" id="k4b-U1-XbB"/>
+                                        <constraint firstItem="La3-uw-byY" firstAttribute="top" secondItem="LdS-qz-HDr" secondAttribute="bottom" constant="7" id="kge-zX-fVS"/>
+                                        <constraint firstItem="vEv-b4-X4O" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="86" id="lHs-Y5-6jx"/>
+                                        <constraint firstItem="a0W-83-Xgl" firstAttribute="baseline" secondItem="R6A-0G-2Wg" secondAttribute="baseline" id="m5L-pN-d31"/>
+                                        <constraint firstItem="FZN-nf-7YK" firstAttribute="top" secondItem="IEF-Ew-FJ3" secondAttribute="bottom" constant="3" id="ofc-C1-2ed"/>
+                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="baseline" secondItem="vEv-b4-X4O" secondAttribute="baseline" id="oni-PG-P4e"/>
+                                        <constraint firstItem="rU2-yz-ifU" firstAttribute="leading" secondItem="lFT-Ia-mCd" secondAttribute="trailing" constant="3" id="p0T-vb-m3v"/>
+                                        <constraint firstItem="r51-sA-nav" firstAttribute="top" secondItem="YOk-PX-G5z" secondAttribute="bottom" constant="6" id="pWh-I0-kgG"/>
+                                        <constraint firstItem="9ci-Nf-g24" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="86" id="qPG-rJ-BF1"/>
+                                        <constraint firstItem="jAW-tt-70w" firstAttribute="top" secondItem="rU2-yz-ifU" secondAttribute="bottom" constant="2" id="rvN-Uy-U7l"/>
+                                        <constraint firstItem="YOk-PX-G5z" firstAttribute="top" secondItem="mFN-P6-EPl" secondAttribute="bottom" constant="8" symbolic="YES" id="s3J-3n-Vc0"/>
+                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="top" secondItem="9ci-Nf-g24" secondAttribute="top" id="sRj-3T-DRF"/>
+                                        <constraint firstItem="JrU-Ez-51O" firstAttribute="baseline" secondItem="qbM-n7-2i9" secondAttribute="firstBaseline" id="t1F-Qh-Kgk"/>
+                                        <constraint firstItem="mFN-P6-EPl" firstAttribute="baseline" secondItem="9ci-Nf-g24" secondAttribute="baseline" id="tRo-TZ-7Da"/>
+                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="leading" secondItem="IEF-Ew-FJ3" secondAttribute="leading" id="tv5-rV-Az0"/>
+                                        <constraint firstItem="La3-uw-byY" firstAttribute="leading" secondItem="Id6-IA-Ocs" secondAttribute="leadingMargin" constant="86" id="ubc-M7-3Ui"/>
+                                        <constraint firstItem="eY2-D9-kZc" firstAttribute="leading" secondItem="IEF-Ew-FJ3" secondAttribute="trailing" constant="1" id="uma-Yf-WQ8"/>
+                                        <constraint firstItem="qmP-rI-Wo2" firstAttribute="centerY" secondItem="vEv-b4-X4O" secondAttribute="centerY" id="wly-fe-mX9"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="AZE-eH-ce1" secondAttribute="trailing" constant="96" id="xLm-kr-xDO"/>
+                                        <constraint firstItem="qbM-n7-2i9" firstAttribute="top" secondItem="jAW-tt-70w" secondAttribute="bottom" constant="3" id="xNJ-tY-8Hc"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -522,6 +562,7 @@
                                     <outlet property="ValueEntryField" destination="vEv-b4-X4O" id="Uwc-Os-d7g"/>
                                     <outlet property="decValue" destination="JrU-Ez-51O" id="fZM-HQ-vER"/>
                                     <outlet property="hexValue" destination="QB9-J1-PY7" id="BZW-HR-zk3"/>
+                                    <outlet property="presentationFormat" destination="eY2-D9-kZc" id="jOR-Qu-JNr"/>
                                     <outlet property="presentedValue" destination="AZE-eH-ce1" id="Ngb-XK-78U"/>
                                     <outlet property="propertyString" destination="LdS-qz-HDr" id="Kc6-1M-O7m"/>
                                     <outlet property="rawProperties" destination="mgg-uV-uvQ" id="M8s-Mu-UDX"/>
@@ -558,13 +599,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="jTK-ZG-1pP">
-                                <rect key="frame" x="20" y="20" width="344" height="544"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Dfv-WR-MG5">
-                                        <rect key="frame" x="8" y="21" width="316" height="505"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">BLEBasics
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUn-ld-PcV">
+                                <rect key="frame" x="13" y="78" width="573" height="502"/>
+                                <color key="backgroundColor" red="0.99002333639999995" green="1" blue="0.74614341110000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="BLEBasics">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="36" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
 
 BLE Basics is a very basic iOS application to discover and explore Bluetooth Low Energy (BLE) Peripherals, Services, and Characteristics. Particularly, it detects and displays some of the newer DESCRIPTOR variants that provide a Units Code, Exponent, User Description, and Value Numeric Type per Bluetooth 4.0 and 4.1
  
@@ -577,51 +624,459 @@ To scan for CHARACTERISTICS, touch the SERVICE entry of interest. The CHARACTERI
 
 The list will show the data value received in text format, the list will also provide more detailed information including:
 
-Description: This is a user provided description originating in the Peripheral for this characteristic.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Description: ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">This is a user provided description originating in the Peripheral for this characteristic.
 
-Properties: This indicates whether it is a READ characteristic, WRITE characteristic, NOTIFY characteristic, INDICATE characteristic, etc.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Properties: ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="This indicates whether it is a ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="READ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" characteristic, ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="WRITE">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" characteristic, ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="NOTIFY">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" characteristic, ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="INDICATE">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> characteristic, etc.
 
 IF the properties include READ, NOTIFY, or INDICATE, a small icon will appear next to the properties.
 
-For a READ characteristic, pressing this icon will cause the value to be read again and the end of the properties line will indicate READ and a time stamp when it was last read.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="For a READ characteristic">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">, pressing this icon will cause the value to be read again and the end of the properties line will indicate READ and a time stamp when it was last read.
 
-For NOTIFY oR INDICATE properties, the icon will cause the characteristic to be subscribed and subsequenly automatically update the display with the new value any time the peripheral updates this value. The icon will toggle between SUBSCRIBED and UNSUBSCRIBED.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="For NOTIFY oR INDICATE properties">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">, the icon will cause the characteristic to be subscribed and subsequenly automatically update the display with the new value any time the peripheral updates this value. The icon will toggle between </string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SUBSCRIBED">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" and ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="UNSUBSCRIBED">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">.
 
-In the event the properties indicates a WRITE type characteristic, the value displayed will be in a red text box. If you press this text box, a keyboard will be called allowing you to enter numeric data into this field which on DONE will be sent to the peripheral and of course written into that characteristic - usually to control something on the peripheral.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="In the event the properties indicates a WRITE type characteristic">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">, the value displayed will be in a red text box. If you press this text box, a keyboard will be called allowing you to enter numeric data into this field which on </string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="DONE">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> will be sent to the peripheral and of course written into that characteristic - usually to control something on the peripheral.
 
-ON/OFF. If ON is entered in the value field, a boolean true or 1 value will be sent in an 8-bit integer. For OFF this will be the value zero.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ON/OFF.">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" If ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ON">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" is entered in the value field, a boolean true or 1 value will be sent in an 8-bit integer. For ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="OFF">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> this will be the value zero.
 
-Ox or OX. Numerics beginning with Ox or OX will be evaluated as hexadecimal numeric entries.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="0">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="x or ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="0">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="X">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=". Numerics beginning with ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="0">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="x">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" or ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="0">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="X">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> will be evaluated as hexadecimal numeric entries.
 
 Other numeric values entered will be treated as decimal numeric entries.
 
-VALUE displays the numeric string received from the characteristic in raw form. This is in hexadecimal ASCII.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="VALUE">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> displays the numeric string received from the characteristic in raw form. This is in hexadecimal ASCII.
 
-UTF8: displays the received value in ASCII text form, or more precisely UTF8 encoding. This is handy for examining characteristics that provide text data strings.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="UTF8:">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> displays the received value in ASCII text form, or more precisely UTF8 encoding. This is handy for examining characteristics that provide text data strings.
 
-HEX: This is the hexadecimal representation of the value received. Note that the VALUE display is the raw string received, often depicting a two or four byte integer in LSB/MSB order. The HEX: value is the intrepreted true value of the integer itself.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="HEX: ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">This is the hexadecimal representation of the value received. Note that the VALUE display is the raw string received, often depicting a two or four byte integer in LSB/MSB order. The HEX: value is the interpreted true value of the integer itself.
 
-DECIMAL: SImilarly, decimal displays the value of the integer in decimal.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="DECIMAL:">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> SImilarly, decimal displays the value of the integer in decimal.
 
-NUMERIC FORMAT: This is received in one of the newer PRESENTATION DESCRIPTORS advising the exact Bluetooth.org numeric format that the characteristic uses.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="NUMERIC FORMAT:">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> This is received in one of the newer PRESENTATION DESCRIPTORS advising the exact Bluetooth.org numeric format that the characteristic uses.
 
-EXPONENT: This is the exponent provided in the newer PRESENTATION DESCRIPTORS indicating the exponent that should be used when presenting the value. For example, the peripheral might provide an integer reading between 0 and 5000 with an exponent of -3. So to present the true value, you would divide by 3 powers of 10 negative, or 1000. The value 3257 then would appear as 3.257. This allows you to present precision decimal numbers using relatively compact integer data types.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="EXPONENT:">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> This is the exponent provided in the newer PRESENTATION DESCRIPTORS indicating the exponent that should be used when presenting the value. For example, the peripheral might provide an integer reading between 0 and 5000 with an exponent of -3. So to present the true value, you would divide by 3 powers of 10 negative, or 1000. The value 3257 then would appear as 3.257. This allows you to present precision decimal numbers using relatively compact integer data types.
 
-UNITS: Bluetooth 4.0 provides a PRESENTATION DESCRIPTOR for UNITS. THis is a 16-bit code representing one of about 100 units such as Volts, Amperes, Ampere-Hours, kiloWatts, kWh, Centigrade, Fahrenheit, etc.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="UNITS:">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> Bluetooth 4.0 provides a PRESENTATION DESCRIPTOR for UNITS. THis is a 16-bit code representing one of about 100 units such as Volts, Amperes, Ampere-Hours, kiloWatts, kWh, Centigrade, Fahrenheit, etc.
 
-The bottom line of the Table View entry is in red and puts all the presentation values together to display "3.257 Volts" for example using the numeric format, the exponent, and the units provided by the peripheral.                                                 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                            </scrollView>
+The bottom line of the Table View entry is in red and puts all the presentation values together to display "</string>
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="3.257 Volts">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="&quot; for example using the numeric format, the exponent, and the units provided by the peripheral.  ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://evtv.me ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="      ">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IUn-ld-PcV" firstAttribute="centerX" secondItem="33G-sh-z5Y" secondAttribute="centerX" id="5Av-iQ-buA"/>
+                            <constraint firstAttribute="bottom" secondItem="IUn-ld-PcV" secondAttribute="bottom" constant="20" symbolic="YES" id="7xv-bn-ipg"/>
+                            <constraint firstItem="IUn-ld-PcV" firstAttribute="leading" secondItem="33G-sh-z5Y" secondAttribute="leadingMargin" constant="-7" id="a6G-za-u83"/>
+                            <constraint firstItem="IUn-ld-PcV" firstAttribute="top" secondItem="LsM-8c-2s5" secondAttribute="bottom" constant="14" id="ldw-vN-GSI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ljN-d9-501" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="855" y="-109"/>
+            <point key="canvasLocation" x="869" y="-121"/>
         </scene>
         <!--Peripherals-->
         <scene sceneID="UaW-X5-Ig7">
@@ -769,6 +1224,6 @@ The bottom line of the Table View entry is in red and puts all the presentation 
         <image name="bluetooth.png" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="I2X-eN-kQK"/>
+        <segue reference="bFy-DO-qE1"/>
     </inferredMetricsTieBreakers>
 </document>

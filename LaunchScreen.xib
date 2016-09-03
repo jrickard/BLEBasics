@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,27 +12,27 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lnq-Be-a2y">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bluetooth.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lnq-Be-a2y">
                     <rect key="frame" x="34" y="23" width="240" height="247"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="240" id="9Ew-G4-PIs"/>
-                        <constraint firstAttribute="height" constant="247" id="DQk-aB-OjE"/>
+                        <constraint firstAttribute="width" secondItem="Lnq-Be-a2y" secondAttribute="height" multiplier="240:247" id="v6o-Nm-n0r"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLEBasics" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BLEBasics" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
                     <rect key="frame" x="34" y="287" width="240" height="43"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.008476272827811198" green="0.0016232485506682401" blue="0.03637820512820511" alpha="1" colorSpace="calibratedRGB"/>
+                    <size key="shadowOffset" width="2" height="1"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.26666666666666666" green="0.69803921568627447" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.99002333639999995" green="1" blue="0.74614341110000004" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Lnq-Be-a2y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="34" id="7jv-44-hyM"/>
-                <constraint firstItem="Lnq-Be-a2y" firstAttribute="leading" secondItem="kId-c2-rCX" secondAttribute="leading" id="8Eb-Ca-3jE"/>
-                <constraint firstItem="Lnq-Be-a2y" firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" id="IBA-LO-0gE"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="Lnq-Be-a2y" secondAttribute="bottom" constant="17" id="Jtd-uu-wdd"/>
-                <constraint firstItem="Lnq-Be-a2y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="whu-jm-ubF"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="AJN-DX-VgN"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dBc-77-maS"/>
+                <constraint firstItem="Lnq-Be-a2y" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qgM-9U-BcH"/>
+                <constraint firstItem="Lnq-Be-a2y" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wCx-bK-1kB"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

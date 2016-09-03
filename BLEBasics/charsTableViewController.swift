@@ -51,6 +51,7 @@ class charsTableViewController: UITableViewController, CBPeripheralDelegate, UIT
    // var foundCharacteristics = NSMutableOrderedSet()
     var characteristicProps = [CBUUID: UInt]()
     var characteristicPropString = [CBUUID: String]()
+    var characteristicFormatString = [CBUUID: String]()
     var characteristicNumberFormat = [CBUUID: Int]()
     var characteristicNumberFormatString = [CBUUID: String]()
     var characteristicExponent = [CBUUID: Int8]()
@@ -285,6 +286,13 @@ func peripheral(peripheral: CBPeripheral, didUpdateValueForDescriptor desc: CBDe
             //SHORT FORM if let r = desc.description.rangeOfString("Characteristic Format")
             if desc.description.rangeOfString("Characteristic Format", options: NSStringCompareOptions.LiteralSearch, range: desc.description.startIndex..<desc.description.endIndex,locale: nil) != nil
                 {
+                   
+                    characteristicFormatString[desc.characteristic.UUID] = "\(desc.value!)"
+                    
+                   
+                        print("Presentation Format Descriptor:\(characteristicFormatString[desc.characteristic.UUID]!) ")
+                    
+                    
                     desc.value!.getBytes(&numFormat, range:NSMakeRange(0,1)) //Converts NSData object to Integer
                    // print("Value data format: 0x\(NSString(format:"%2X",numFormat))....\(NumericType[numFormat]) ")
                     characteristicNumberFormat[desc.characteristic.UUID] = numFormat
@@ -495,6 +503,8 @@ override func tableView(characteristicsTableView: UITableView, cellForRowAtIndex
 
                             
                         }
+                    
+                    cell.presentationFormat.text = self.characteristicFormatString[Mycharacteristic.UUID] ?? " None "
                     
                     cell.valueFormat.text = self.characteristicNumberFormatString[Mycharacteristic.UUID] ?? " None given"
                     
