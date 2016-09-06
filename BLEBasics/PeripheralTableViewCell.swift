@@ -24,5 +24,6 @@ class PeripheralTableViewCell: UITableViewCell
             UUIDLabel.text = peripheral.UUID
             RSSILabel.text = peripheral.RSSI
             connectableLabel.text = peripheral.connectable
+              
         }
 }//end class

@@ -86,10 +86,10 @@ class charsTableViewController: UITableViewController, CBPeripheralDelegate, UIT
             
              print("\nSelected PeripheralUUID: \(peripheral.identifier.UUIDString)")
        
-            print("Selected Peripheral Name: \(peripheral.name as! NSString!)")
+            print("Selected Peripheral Name: \(peripheral.name as NSString!)")
             
             peripheral.delegate = self
-            self.refreshControl?.addTarget(self, action: Selector("startScanningCharacteristics"), forControlEvents: .ValueChanged)
+            self.refreshControl?.addTarget(self, action: #selector(charsTableViewController.startScanningCharacteristics), forControlEvents: .ValueChanged)
             print("Selected Service: \(service.UUID.description)")
             
             startScanningCharacteristics()

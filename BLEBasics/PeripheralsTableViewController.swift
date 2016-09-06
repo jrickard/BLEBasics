@@ -81,7 +81,7 @@ class PeripheralsTableViewController: UITableViewController, CBCentralManagerDel
             visiblePeripherals.removeAll(keepCapacity: true)
             tableView.reloadData()
             manager.scanForPeripheralsWithServices(nil, options: nil)
-            scanTimer = NSTimer.scheduledTimerWithTimeInterval(20, target: self, selector: #selector(PeripheralsTableViewController.stopScanning), userInfo: nil, repeats: false)
+            scanTimer = NSTimer.scheduledTimerWithTimeInterval(40, target: self, selector: #selector(PeripheralsTableViewController.stopScanning), userInfo: nil, repeats: false)
         }
     
     func stopScanning()
@@ -218,7 +218,7 @@ class PeripheralsTableViewController: UITableViewController, CBCentralManagerDel
                 if selectedPeripheral.connectable == "Yes"
                     {
                         connectedPeripheral = selectedPeripheral.peripheral
-                        connectionAttemptTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: Selector("timeoutPeripheralConnectionAttempt"), userInfo: nil, repeats: false)
+                        connectionAttemptTimer = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(PeripheralsTableViewController.timeoutPeripheralConnectionAttempt), userInfo: nil, repeats: false)
                         manager.connectPeripheral(connectedPeripheral!, options: nil)
                     }
             }
