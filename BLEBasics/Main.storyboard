@@ -207,10 +207,10 @@
             </objects>
             <point key="canvasLocation" x="1613" y="577"/>
         </scene>
-        <!--Chacteristics-->
+        <!--Characteristics-->
         <scene sceneID="OUC-Zy-IsV">
             <objects>
-                <tableViewController title="Chacteristics" id="GbT-iF-Rxf" customClass="charsTableViewController" customModule="BLEBasics" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Characteristics" id="GbT-iF-Rxf" customClass="charsTableViewController" customModule="BLEBasics" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="349" sectionHeaderHeight="28" sectionFooterHeight="28" id="Imq-vo-OuB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
